@@ -2,6 +2,7 @@ import binascii
 
 def user_text():
   plaintext = "hello i am stream cipher"
+  print ("plaintText is :")
   print plaintext
   string_to_binary(plaintext)
 
@@ -23,3 +24,4 @@ def encryption_box(binary_list):
   print("cipher text : ")
   print ct
 
+user_text()
