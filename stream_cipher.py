@@ -1,7 +1,8 @@
 import binascii
+import keydHash
 
 def user_text():
-  plaintext = "hello i am stream cipher"
+  plaintext = "hahaha lol"
   print ("plaintText is :")
   print plaintext
   string_to_binary(plaintext)
@@ -22,6 +23,7 @@ def encryption_box(binary_list):
     ct_dec.append(int(ct_blist[i], 2))
     ct.append(chr(ct_dec[i]))
   print("cipher text : ")
+  import pdb;pdb.set_trace()
   print ct
 
 user_text()
