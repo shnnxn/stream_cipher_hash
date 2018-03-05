@@ -1,7 +1,8 @@
 import binascii
+import keydHash
 
 def user_text():
-  plaintext = "hello i am stream cipher"
+  plaintext = "hahaha lol"
   print ("plaintText is :")
   print plaintext
   string_to_binary(plaintext)
